@@ -16,4 +16,4 @@ const calculator = {
   },
 };
 
-const plusReslt = calculator.plus (a, b)
+const plusReslt = calculator.plus (a, b);
