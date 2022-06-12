@@ -1,8 +1,19 @@
-const player ={
-    name: "minjun",
-    points: 10,
-    fat: true,
+const calculator = {
+  plus: function (a, b) {
+    return a + b;
+  },
+  minus: function (a, b) {
+    return a - b;
+  },
+  times: function (a, b) {
+    return a * b;
+  },
+   divide: function (a, b) {
+    return a / b;
+  },
+   power: function (a, b) {
+    return a ** b;
+  },
 };
-console.log(player);
-player.points= player.points + 15;
-console.log(player.points);
+
+const plusReslt = calculator.plus (a, b)
